@@ -48,7 +48,7 @@ export const QuizContainer: React.FC = () => {
           ...answers,
           [currentQuestion.id]: {
             questionId: currentQuestion.id,
-            value,
+            value: currentAnswer.value,
           },
         }));
         router.push('/results');
