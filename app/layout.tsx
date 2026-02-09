@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -18,35 +19,35 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               <div className="flex items-center">
-                <a href="/" className="text-2xl font-bold text-primary-600">
+                <Link href="/" className="text-2xl font-bold text-primary-600">
                   Women's Health
-                </a>
+                </Link>
               </div>
               <div className="hidden md:flex space-x-8">
-                <a href="/" className="text-gray-700 hover:text-primary-600 transition-colors">
+                <Link href="/" className="text-gray-700 hover:text-primary-600 transition-colors">
                   Home
-                </a>
-                <a href="/content/about" className="text-gray-700 hover:text-primary-600 transition-colors">
+                </Link>
+                <Link href="/content/about" className="text-gray-700 hover:text-primary-600 transition-colors">
                   About
-                </a>
-                <a href="/content/stages" className="text-gray-700 hover:text-primary-600 transition-colors">
+                </Link>
+                <Link href="/content/stages" className="text-gray-700 hover:text-primary-600 transition-colors">
                   Stages
-                </a>
-                <a href="/content/symptoms" className="text-gray-700 hover:text-primary-600 transition-colors">
+                </Link>
+                <Link href="/content/symptoms" className="text-gray-700 hover:text-primary-600 transition-colors">
                   Symptoms
-                </a>
-                <a href="/content/treatment" className="text-gray-700 hover:text-primary-600 transition-colors">
+                </Link>
+                <Link href="/content/treatment" className="text-gray-700 hover:text-primary-600 transition-colors">
                   Treatment
-                </a>
-                <a href="/content/faq" className="text-gray-700 hover:text-primary-600 transition-colors">
+                </Link>
+                <Link href="/content/faq" className="text-gray-700 hover:text-primary-600 transition-colors">
                   FAQ
-                </a>
-                <a href="/content/resources" className="text-gray-700 hover:text-primary-600 transition-colors">
+                </Link>
+                <Link href="/content/resources" className="text-gray-700 hover:text-primary-600 transition-colors">
                   Resources
-                </a>
-                <a href="/content/contact" className="text-gray-700 hover:text-primary-600 transition-colors">
+                </Link>
+                <Link href="/content/contact" className="text-gray-700 hover:text-primary-600 transition-colors">
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>
