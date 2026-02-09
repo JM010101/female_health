@@ -1,0 +1,85 @@
+import { StageDefinition } from '@/lib/types';
+
+export const stageDefinitions: Record<string, StageDefinition> = {
+  'pre-menopause': {
+    id: 'pre-menopause',
+    name: 'Pre-Menopause',
+    description: 'You are in the pre-menopause stage, which means you are still having regular menstrual cycles and have not yet entered perimenopause.',
+    guidance: [
+      'Your menstrual cycles are still regular and predictable.',
+      'Hormone levels are relatively stable.',
+      'This is a good time to establish healthy lifestyle habits.',
+    ],
+    recommendations: [
+      'Maintain regular exercise and a balanced diet.',
+      'Schedule annual gynecological check-ups.',
+      'Consider tracking your menstrual cycle to monitor any changes.',
+      'Focus on bone health with adequate calcium and vitamin D.',
+    ],
+    color: 'blue',
+    icon: '🌸',
+  },
+  'perimenopause': {
+    id: 'perimenopause',
+    name: 'Perimenopause',
+    description: 'You are likely in perimenopause, the transitional phase before menopause. This stage can last several years and is characterized by hormonal fluctuations and changing menstrual patterns.',
+    guidance: [
+      'Menstrual cycles may become irregular or unpredictable.',
+      'Hormone levels fluctuate, causing various symptoms.',
+      'This stage typically begins in your 40s but can start earlier.',
+      'Symptoms can vary greatly from person to person.',
+    ],
+    recommendations: [
+      'Track your symptoms and menstrual cycle patterns.',
+      'Consider speaking with a healthcare provider about symptom management.',
+      'Practice stress-reduction techniques like meditation or yoga.',
+      'Maintain a healthy diet rich in phytoestrogens.',
+      'Stay physically active to help manage symptoms.',
+      'Consider hormone therapy options if symptoms are severe.',
+    ],
+    color: 'purple',
+    icon: '🌺',
+  },
+  'menopause': {
+    id: 'menopause',
+    name: 'Menopause',
+    description: 'You appear to be in menopause, which is confirmed when you have gone 12 consecutive months without a menstrual period. This marks the end of your reproductive years.',
+    guidance: [
+      'Menopause is confirmed after 12 months without a period.',
+      'Hormone levels have significantly decreased.',
+      'Symptoms may be at their peak during this transition.',
+      'This is a natural life stage, not a medical condition.',
+    ],
+    recommendations: [
+      'Consult with a healthcare provider to confirm menopause status.',
+      'Discuss hormone replacement therapy (HRT) options if appropriate.',
+      'Focus on managing symptoms that impact your quality of life.',
+      'Prioritize bone health with weight-bearing exercise and supplements.',
+      'Maintain cardiovascular health through regular exercise.',
+      'Consider joining support groups or speaking with a counselor.',
+    ],
+    color: 'pink',
+    icon: '🌹',
+  },
+  'post-menopause': {
+    id: 'post-menopause',
+    name: 'Post-Menopause',
+    description: 'You are in post-menopause, which begins one year after your last menstrual period. This stage continues for the rest of your life.',
+    guidance: [
+      'You have completed the menopause transition.',
+      'Hormone levels have stabilized at lower levels.',
+      'Some symptoms may decrease, while others may persist.',
+      'Long-term health considerations become important.',
+    ],
+    recommendations: [
+      'Continue regular health screenings and check-ups.',
+      'Maintain bone density through exercise and supplements.',
+      'Focus on heart health and cardiovascular fitness.',
+      'Stay socially active and engaged.',
+      'Consider discussing long-term health strategies with your doctor.',
+      'Maintain a healthy lifestyle to support overall well-being.',
+    ],
+    color: 'rose',
+    icon: '🌷',
+  },
+};
