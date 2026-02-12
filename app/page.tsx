@@ -1,6 +1,6 @@
-#import Link from 'next/link';
-#import { Button } from '@/components/ui/Button';
-#import { Card } from '@/components/ui/Card';
+import Link from 'next/link';
+import { Button } from '@/components/ui/Button';
+import { Card } from '@/components/ui/Card';
 
 export default function Home() {
   return (
