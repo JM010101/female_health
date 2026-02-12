@@ -1,5 +1,6 @@
 <html>
-<head>import Link from 'next/link';
+<head>
+  """import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 
@@ -101,7 +102,7 @@ export default function Home() {
       </section>
     </div>
   );
-}
+}"""
 </head>
 <body>Terry</body>
 </html>
